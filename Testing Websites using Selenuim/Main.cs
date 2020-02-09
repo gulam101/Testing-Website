@@ -2,10 +2,10 @@
 using OpenQA.Selenium.Chrome;
 using System;
 
-    class Program
-    {
-        static void Main()
-        {
-        IWebDriver element = new ChromeDriver(); 
-        }
-    }
+class Program
+  {
+     static void Main()
+     {
+       IWebDriver element = new ChromeDriver(); 
+     }
+ }
