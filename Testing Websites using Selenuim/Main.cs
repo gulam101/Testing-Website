@@ -1,11 +1,19 @@
-﻿using OpenQA.Selenium;
+﻿using System;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System;
 
 class Program
   {
-     static void Main()
+     static void Main(string[] args)
      {
-       IWebDriver element = new ChromeDriver(); 
+        string URL = "https://www.google.com/";
+        string ID = "lga";
+
+        IWebDriver driver = new ChromeDriver();
+
+        driver.Navigate().GoToUrl(URL);
+
+        IWebElement GoogleURL = driver.FindElement(By.Id(ID));
+
      }
  }
