@@ -9,10 +9,13 @@ class Program
         string URL = "https://www.google.com/";
         string ID = "lga";
 
+
         IWebDriver driver = new ChromeDriver();
 
+        //Goes to the specified URL link
         driver.Navigate().GoToUrl(URL);
 
+        //Calls our element
         IWebElement GoogleURL = driver.FindElement(By.Id(ID));
 
      }
