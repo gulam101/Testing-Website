@@ -1,2 +1,2 @@
 # Testing-Website
-Testing websites using Selenuim
+## Testing websites - Console Application & Selenuim WebDriver
